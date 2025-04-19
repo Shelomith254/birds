@@ -1,6 +1,56 @@
-img{
-    display: flex;
-  gap: 10px;
-    max-width: 100%;
-  height: auto;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: darkcyan;
+}
+.xx{
+  overflow: hidden;
+  font-size: large;
+  justify-content: center;
+  align-items: center;
+}
+img.image{
+  height: 4cm;
+  width: 5cm;
+  margin-left: 15cm;
+  align-content: center;
+  margin-right: 5cm;
+
+
+}
+.box{
+display: flex;
+gap: 10px;
+padding: 30px;
+border-radius: 8px;
+justify-content: center;
+align-items: center;
+}
+
+a{
+  font-weight: bolder;
+
+}
+.big{
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+  margin-left: 10cm;
+  overflow: hidden;
+  text-size-adjust: small;
+  text-decoration: solid;
+
+
+  }
+.big,img{
+  height: 9cm;
+  width: 20cm;
+ }
+img.killer{
+  height: 3cm;
+  width: 6cm;
+  
 }
